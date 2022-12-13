@@ -1,6 +1,5 @@
 package wikipedia.stepDefinition;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.WebDriver;
@@ -22,11 +21,9 @@ public class wikipedia {
     public void user_fill_keyword(String keywordSearch) throws Throwable {
         pathWikipedia.fill_keyword(keywordSearch);
     }
-
     @Then("^Expect result \"(.*?)\" of spacex$")
     public void expect_result_of_spacex(String CEO) throws Throwable {
         pathWikipedia.result_CEO_of_spacex(CEO);
     }
-
 
 }
