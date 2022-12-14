@@ -10,7 +10,10 @@ Feature: Send Message
     Then User success send text message
     Examples:
       |ContactName|TextMessage|
-      |Ririn      |send test datasour.ai from ririn nurmaica|
+      |Ririn      |Text: test datasour.ai from ririn nurmaica|
+      |Ririn      |Stiker: Send stiker                            |
+      |Ririn      |Text and emote: test datasour.ai from ririn nurmaica :)|
+
 
 
   Scenario Outline: Send attach document message for new chat
