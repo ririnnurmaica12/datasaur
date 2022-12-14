@@ -10,8 +10,6 @@ Feature: Delete Chat
   Then User success delete chat
 
 
-Feature: Delete Chat
-
   Scenario: Delete chat on the detail message page
   Given User open whatsapp desktop
   When The whatsapp is logged in

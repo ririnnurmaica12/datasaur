@@ -13,8 +13,6 @@ Feature: Voice Call and Video Call
     |Ririn      |
 
 
-Feature: Call and Video Call
-
   Scenario Outline: Video call
   Given User open whatsapp desktop
   When the whatsapp is logged in
@@ -27,8 +25,6 @@ Feature: Call and Video Call
       |ContactName|
       |Ririn      |
 
-
-Feature: Voice Call and Video Call
 
  Scenario Outline: Voice call rejected
   Given User open whatsapp desktop
@@ -43,8 +39,6 @@ Feature: Voice Call and Video Call
     |Ririn      |
 
 
-Feature: Call and Video Call
-
   Scenario Outline: Video call
   Given User open whatsapp desktop
   When the whatsapp is logged in
@@ -57,8 +51,6 @@ Feature: Call and Video Call
       |ContactName|
       |Ririn      |
 
-
-Feature: Call and Video Call
 
   Scenario Outline: Call or Video call without an internet network
     Given User open whatsapp desktop

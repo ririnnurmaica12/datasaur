@@ -12,8 +12,6 @@ Feature: Search chat
   |text search|
 
 
-Feature: Search chat
-
   Scenario Outline: Search chat on the detail message page
   Given User open whatsapp desktop
   When The whatsapp is logged in

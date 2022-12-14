@@ -16,7 +16,6 @@ Feature: Add new community
   |GroupName|
   |datasaur group|
 
-Feature: Add new community
   Scenario Outline: Add new community form new group
   Given User open whatsapp desktop
   When the whatsapp is logged in

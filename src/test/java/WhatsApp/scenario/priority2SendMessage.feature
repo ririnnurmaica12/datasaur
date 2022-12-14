@@ -12,7 +12,7 @@ Feature: Send Message
       |ContactName|TextMessage|
       |Ririn      |send test datasour.ai from ririn nurmaica|
 
-Feature: Send Message
+
   Scenario Outline: Send attach document message for new chat
     Given User open whatsapp desktop
     When the whatsapp is logged in
@@ -30,7 +30,6 @@ Feature: Send Message
       |Ririn      |send test datasour.ai from ririn nurmaica|
 
 
-Feature: Send Message
   Scenario Outline: Send attach multiple document message for new chat
     Given User open whatsapp desktop
     When the whatsapp is logged in
@@ -50,8 +49,6 @@ Feature: Send Message
       |Ririn      |send test datasour.ai from ririn nurmaica|
 
 
-Feature:Send Message
-
   Scenario Outline: Send image message for new chat
     Given User open whatsapp desktop
     When the whatsapp is logged in
@@ -68,7 +65,6 @@ Feature:Send Message
       |ContactName|TextMessage|
       |Ririn      |send test datasour.ai from ririn nurmaica|
 
-Feature:Send Message
 
   Scenario Outline: Send video message for new chat
     Given User open whatsapp desktop
@@ -85,7 +81,6 @@ Feature:Send Message
       |ContactName|TextMessage|
       |Ririn      |send test datasour.ai from ririn nurmaica|
 
-Feature:Send Message
 
  Scenario Outline: Send contact message for new chat
     Given User open whatsapp desktop
@@ -103,7 +98,7 @@ Feature:Send Message
      |ContactName|Contact|
      |Ririn      |nurmaica|
 
-Feature:Send Message
+
   Scenario Outline:Send image message by camera for new chat
     Given User open whatsapp desktop
     When the whatsapp is logged in
@@ -119,7 +114,7 @@ Feature:Send Message
       |ContactName|
       |Ririn      |
 
-Feature: Send Message
+
  Scenario Outline: Send voice message for new chat
     Given User open whatsapp desktop
     When the whatsapp is logged in
@@ -134,7 +129,7 @@ Feature: Send Message
      |ContactName|
      |Ririn      |
 
-Feature: Send Message
+
  Scenario Outline: Replay message
     Given User open whatsapp desktop
     When the whatsapp is logged in
@@ -149,7 +144,7 @@ Feature: Send Message
      |TextMessage|
      |Test datasaur Ririn|
 
-Feature: Send Message
+
   Scenario Outline: Send messages without an internet network
     Given User open whatsapp desktop
     When the whatsapp is logged in
