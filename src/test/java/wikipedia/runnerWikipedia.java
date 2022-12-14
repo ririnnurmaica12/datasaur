@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/wikipedia/scenario/wikipedia.feature"}
 )
-public class runner {
+public class runnerWikipedia {
 
 }
